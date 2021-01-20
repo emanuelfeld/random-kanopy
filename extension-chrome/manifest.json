@@ -10,7 +10,10 @@
 
   "page_action": {
     "browser_style": true,
-    "default_icon": "random-solid.svg", // icon licensed from https://fontawesome.com/license
+    "default_icon": {
+      "16": "random-solid-16.png",
+      "32": "random-solid-32.png"
+    },
     "show_matches": [
         "*://*.kanopy.com/user/*/watch-list",
         "*://*.kanopy.com/user/*/watch-list?*"
@@ -33,12 +36,6 @@
 
   "background": {
     "scripts": ["background.js"]
-  },
-
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "random-kanopy@emanuelfeld"
-    }
   }
   
 }

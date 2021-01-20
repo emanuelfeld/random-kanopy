@@ -1,3 +1,4 @@
 .DS_Store
 extension-firefox/.web-extension-id
 extension-firefox/web-ext-artifacts/*
+*.zip
